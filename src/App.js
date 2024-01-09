@@ -15,7 +15,7 @@ import NavigationBar from "./components/NavigationBar";
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <NavigationBar />
       <Routes>
         <Route path="/ace" element={<Home />} />
