@@ -128,7 +128,7 @@ export const productList2=[
 const providersList=[
   {
     id:1,
-    name: 'FONESTAR Spain',
+    name: 'FONESTAR',
     image:"../providers_images/fonestar.jpg",
     link:"https://fonestar.com/en/"
   },

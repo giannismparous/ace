@@ -131,6 +131,14 @@ body {
   height: 450px;
 }
 
+@media (max-width: 750px) {
+  #services_img{
+    float: right;
+    width: 250px;
+    height: 250px;
+  }
+}
+
 .animate-on-scroll {
   opacity: 0;
   transform: translateY(20px);
@@ -145,3 +153,4 @@ body {
 .full-width-bg-colored{
   background-color: rgb(107, 110, 110);
 }
+
